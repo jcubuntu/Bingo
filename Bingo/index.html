@@ -66,14 +66,14 @@ body {
 		appid = parameters_string[0];
 		appkey = parameters_string[1];
 		appsecret = parameters_string[2];
-		makeCode("http://rawgit.com/anunpanya/piebingo/master/client.html#"+appid+":"+appkey+":"+appsecret);
+		makeCode("http://jcubuntu.pureewat.me/bingo/client.html#"+appid+":"+appkey+":"+appsecret);
 	}else{
 		document.getElementById("nplayer").innerHTML = 'appid or auth invalid<br>http://'+window.location.host+window.location.pathname+'#APPID:KEY:SECRET';
 	}
 	
-	const APPID = appid;
-	const APPKEY = appkey;
-	const APPSECRET = appsecret;
+	const APPID = "iGeniusBingo";
+	const APPKEY = "VhGEeTtsM47uTjN";
+	const APPSECRET = "wHICHPRWrTcjIxu9aKXVVkJCu";
 
 	var microgear = Microgear.create({
 		gearkey: APPKEY,
